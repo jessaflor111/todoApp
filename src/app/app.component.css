@@ -1,0 +1,31 @@
+.fas .fa-trash{
+    font-size: .5em !important;
+}
+
+.jumbotron {
+     background: linear-gradient(to top, rgb(218, 226, 248), rgb(214, 164, 164));
+     height: 900px;
+     margin-bottom: 0px;
+     font-family: 'Slabo 27px', serif;
+}
+
+.card {
+    border-style: none !important;
+    border-radius: 35px !important;
+}
+
+
+.fcinput {
+    font-family: 'Lato', sans-serif !important;
+}
+
+.todo-textt {
+    font-family: 'Gaegu', cursive;
+}
+
+.strike {
+    text-decoration: line-through;
+    color: rgb(218, 226, 248);
+}
+
+
