@@ -1,13 +1,9 @@
+<router-outlet></router-outlet>
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
     <h1 class="display-4 text-center">Jessica's Todo List</h1>
   </div>
-
-
-
-
-
-
+  
   <div class="input-group mb-3">
     <div class="input-group-prepend">
     </div>
@@ -70,7 +66,7 @@
                             
                             <!-- Modal -->
                             <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                              <div class="modal-dialog modal-dialog-centered" role="document">
+                              <div class="modal-dialog modal-dialog-centered " role="document">
                                 <div class="modal-content">
                                   <div class="modal-header">
                                     <h5 class="modal-title fcinput" id="exampleModalCenterTitle">ARE YOU SURE?</h5>
@@ -83,7 +79,7 @@
                                   </div>
                                   <div class="modal-footer">
                                     <button type="button modal-button" class="btn btn-secondary fcinput" data-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary fcinput"(click)="deleteAll()">Delete All</button>
+                                    <button type="button" class="btn btn-primary fcinput"(click)="deleteAll() " data-dismiss="modal" aria-label="Close">Delete All</button>
                                   </div>
                                 </div>
                               </div>
